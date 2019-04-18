@@ -23,4 +23,8 @@ Una volta scaricato clicchiamoci sopra e facciamo click poi sul pulsante install
 
 `git clone <url copiato precedentemente dalla repository di github>`
 
+`git config --global user.email "latua@email"`
+
+`git config --global user.name "nomeutente"`
+
 Questo e' tutto...ora dalla scheda Source Control si dovrebbe vedere il contenuto della cartella ed e' anche possibile eseguire dei pull o altro.
