@@ -1,5 +1,3 @@
-#Installare e configurare Microsoft VS Code con GitHub su Linux
-
 ## Installare Microsoft VS Code su Linux
 
 Per installare cliccare su questo [Link di download diretto](https://go.microsoft.com/fwlink/?LinkID=760868) di Microsoft VS Code.
