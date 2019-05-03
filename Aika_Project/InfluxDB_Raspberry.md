@@ -1,8 +1,8 @@
-#Guida Installazione InfluxDB e GUI su Raspberry Pi
+# Guida Installazione InfluxDB e GUI su Raspberry Pi
 
 Questa guida serve per installare InfluxDB e l'interfaccia grafica per la creazione dei database e query.
 
-##Installazione InfluxDB
+## Installazione InfluxDB
 
 Come prima cosa andiamo ad installare InfluxDB, quindi andiamo ad aprire il terminale e digitiamo i seguenti comandi:
 
@@ -26,7 +26,7 @@ _______________________________________________________
 
 Ottimo, ora abbiamo installato correttamente InfluxDB sul nostro Raspberry.
 
-##Installazione e configurazione Chronograf
+## Installazione e configurazione Chronograf
 
 Andiamo ad installare l'interfaccia grafica per la gestione di InfluxDB. Una volta fatto sara' possibile gestire tutto il DB grazie all'interfaccia grafica.
 
@@ -42,4 +42,4 @@ Ora andiamo su un browser e andiamo a scrivere l'indirizzo IP del raspberry e la
 
 Da qui possiamo vedere la Welcome Page, clicchiamo su Get Started
 
-![](https://i.imgur.com/Pjihl2D.png "Welcome Page")
+![](https://i.imgur.com/Pjihl2D.png "Welcome Page InfluxDB")
