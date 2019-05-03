@@ -4,7 +4,7 @@ Questa guida serve per installare InfluxDB e l'interfaccia grafica per la creazi
 
 ## Installazione InfluxDB
 
-Come prima cosa andiamo ad installare InfluxDB, quindi andiamo ad aprire il terminale e digitiamo i seguenti comandi:
+Come prima cosa andiamo ad installare InfluxDB, quindi andiamo ad **aprire il terminale** e digitiamo i seguenti comandi:
 
 `curl -sL https://repos.influxdata.com/influxdb.key | sudo apt-key add -`
 _______________________________________________________
@@ -36,10 +36,24 @@ Ottimo, ora appena finita l'installazione procediamo ad avviarlo e far si che si
 
 `sudo systemctl start chronograf`
 
+**Consiglio di fare un riavvio del Raspberry.**
+
 _______________________________________________________
 
-Ora andiamo su un browser e andiamo a scrivere l'indirizzo IP del raspberry e la porta 8888, per esempio: http://indirizzoipraspberry:8888 
+Ora **andiamo su un browser** e andiamo a scrivere l'indirizzo IP del raspberry e la porta 8888, per esempio: http://indirizzoipraspberry:8888 
 
 Da qui possiamo vedere la Welcome Page, clicchiamo su Get Started
 
 ![](https://i.imgur.com/Pjihl2D.png "Welcome Page InfluxDB")
+
+La prossima page e' la configurazione del collegamento tra Chronograf e InfluxDB, **ci basta inserire l'indirizzo IP del raspberry e lasciare la porta preconfigurata** di InfluxDB (a meno che non la si abbia cambiata).
+
+![](https://i.imgur.com/tvRg7HW.png "Page configurazione")
+
+Ora sulla schermata delle Dashboard clicchiamo sul pulsante **Skip** che troviamo in fondo alla schermata web.
+
+Stesso identico processo per quanto riguarda la schermata Kapacitor Connection, premere il pulsante **Skip**.
+
+Una volta finito il setup iniziale clicchiamo su **View All Connection** e abbiamo finito.
+
+Ora si potra' gestire tutto il DB semplicemente via Interfaccia Web.
