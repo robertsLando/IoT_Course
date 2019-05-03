@@ -8,7 +8,7 @@ Ecco l'indice generale:
 - [Configurare e installare VS Code e GitHub su Linux](https://github.com/robertsLando/IoT_Course/tree/master/Lezione_19-04-18#installare-microsoft-vs-code-su-linux)
 
 
-#Aika Project
+# Aika Project
 
 Principali guide e informazioni riguardo il progetto
 
