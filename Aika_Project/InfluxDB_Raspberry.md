@@ -36,6 +36,8 @@ Ottimo, ora appena finita l'installazione procediamo ad avviarlo e far si che si
 
 `sudo systemctl start chronograf`
 
+`sudo systemctl enable chronograf`
+
 **Consiglio di fare un riavvio del Raspberry.**
 
 _______________________________________________________
