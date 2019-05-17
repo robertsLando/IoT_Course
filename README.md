@@ -9,13 +9,3 @@ Ecco l'indice generale:
 
 
 _________________________________________________________________________________________________________________________________________________________________
-
-
-# Aika Project
-
-Principali guide e informazioni riguardo il progetto
-
-## Indice
-Ecco l'indice generale:
-
-- [InfluxDB e Web GUI su Raspberry](https://github.com/robertsLando/IoT_Course/blob/master/Aika_Project/InfluxDB_Raspberry.md#guida-installazione-influxdb-e-gui-su-raspberry-pi)
