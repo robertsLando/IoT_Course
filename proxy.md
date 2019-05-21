@@ -9,7 +9,7 @@ sudo nano /etc/environment
 
 # Add this lines to the file (should be empty)
 export http_proxy="http://172.21.1.211:3128"
-export https_proxy="http://172.21.1.211:3128"
+export https_proxy="https://172.21.1.211:3128"
 export no_proxy="localhost, 127.0.0.1"
 
 # Extend proxy env vars to sudoers
