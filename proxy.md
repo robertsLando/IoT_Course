@@ -16,7 +16,7 @@ export no_proxy="localhost, 127.0.0.1"
 sudo visudo
 
 # Add this line after the other 'Defaults' lines (in the middle of the file)
-Defaults    env_keep+="http_poxy https_poxy no_proxy"
+Defaults    env_keep+="http_proxy https_proxy no_proxy"
 
 # Reboot the device
 sudo reboot
