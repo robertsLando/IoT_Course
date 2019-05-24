@@ -23,4 +23,17 @@ sudo reboot
 
 # Test if internet is working
 sudo apt-get update
+
+# Ignore ssl verification and set proxy on npm
+npm config set proxy $http_proxy
+npm config set https-proxy $http_proxy
+npm config set strict-ssl false
+
+# Check config
+sudo nano /home/pi/.npmrc
+
+# Test
+cd ~/.node-red
+npm outdated
+
 ```
