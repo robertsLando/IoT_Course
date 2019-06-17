@@ -38,5 +38,5 @@ Andiamo a cliccare sulla "matita" e configuriamo così:
 4. database: il nome del database che abbiamo creato
 5. Timezone: Bho non lo abbiamo configurato
 
-##FINEEE
+## FINEEE
 
